@@ -1,14 +1,12 @@
 version: "3.1"
 
 stories:
-
 - story: happy path
   steps:
   - intent: greet
   - action: utter_greet
   - intent: mood_great
   - action: utter_happy
-
 - story: sad path 1
   steps:
   - intent: greet
@@ -18,7 +16,6 @@ stories:
   - action: utter_did_that_help
   - intent: affirm
   - action: utter_happy
-
 - story: sad path 2
   steps:
   - intent: greet
@@ -28,9 +25,8 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
-
 - story: Chào - tên - hỏi chức năng - chào
- steps: 
+  steps: 
   - intent: greet
   - action: utter_greet
   - intent: ask_name
@@ -39,33 +35,29 @@ stories:
   - action: utter_func_list
   - intent: bye
   - action: utter_bye
-  
 - story: Chào  - hỏi chức năng - chào
- steps: 
+  steps: 
   - intent: greet
   - action: utter_greet
   - intent: ask_func_list
   - action: utter_func_list
   - intent: bye
   - action: utter_bye
-
 - story: Chào  - hỏi tên - chào
- steps: 
+  steps: 
   - intent: greet
   - action: utter_greet
   - intent: ask_name
   - action: utter_ask_name
   - action: bye
   - intent: utter_bye
-
 - story: Hỏi tên - hỏi chức năng
- steps:
+  steps:
   - intent: ask_name
   - action: utter_ask_name
   - intent: ask_func_list
   - action: utter_func_list
-
 - story: Cảm ơn
- steps:
+  steps:
   - intent: thank
   - action: utter_thank

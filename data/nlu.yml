@@ -30,7 +30,6 @@ nlu:
     - chào 
     - hi 
     - có ai ở đây không?
-
 - intent: goodbye
   examples: |
     - cu
@@ -51,7 +50,6 @@ nlu:
     - chào tạm biệt em
     - tạm biệt em
     - tạm biệt em nhé
-
 - intent: affirm
   examples: |
     - yes
@@ -63,7 +61,6 @@ nlu:
     - được á
     - chuẩn
     - rồi
-
 - intent: deny
   examples: |
     - no
@@ -76,7 +73,6 @@ nlu:
     - không được
     - tôi không đồng ý
     - đừng
-
 - intent: mood_great
   examples: |
     - perfect
@@ -97,7 +93,6 @@ nlu:
     - được đó
     - ok
     - tôi hài lòng
-
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -119,7 +114,6 @@ nlu:
     - không chính xác
     - tôi không hài lòng với ý kiến này
     - tôi không thích sản phẩm này
-
 - intent: bot_challenge
   examples: |
     - are you a bot?
@@ -129,23 +123,20 @@ nlu:
     - bạn là bot phải không?
     - bạn có biết nói không?
     - bạn có phải là người không?
-
 - intent: product_question
-  examples:
-  - sản phẩm gaming
-  - sản phẩm văn phòng
-  - laptop gaming
-  - laptop văn phòng
-
+  examples: |
+    - sản phẩm gaming
+    - sản phẩm văn phòng
+    - laptop gaming
+    - laptop văn phòng
 - intent: best_product_question
-  examples:
-  - sản phẩm đang bán chạy nhất
-  - sản phẩm hot nhất hiện nay
-  - laptop hot nhất hiện nay là gì vậy
-  - laptop đang bán chạy nhất
-
+  examples: |
+    - sản phẩm đang bán chạy nhất
+    - sản phẩm hot nhất hiện nay
+    - laptop hot nhất hiện nay là gì vậy
+    - laptop đang bán chạy nhất
 - intent: thank
-  examples:
+  examples: |
     - chuẩn
     - hay
     - siêu
@@ -157,9 +148,8 @@ nlu:
     - cảm ơn em
     - cảm ơn em nhiều nhé
     - cảm ơn
-
 - intent: ask_func_list
-  examples:
+  examples: |
     - bạn có thể làm được những gì
     - bạn giúp được gì nào
     - chức năng của bạn là gì
@@ -196,9 +186,8 @@ nlu:
     - giúp được gì
     - mày làm được gì
     - có biết gì 
-
 - intent: ask_name
-  examples:
+  examples: |
     - bạn tên gì
     - tên gì
     - chị tên gì

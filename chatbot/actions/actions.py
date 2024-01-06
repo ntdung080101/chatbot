@@ -74,3 +74,13 @@ class action_reset_slot(Action):
 
     def run(self, dispatcher, tracker, domain):
         return [SlotSet("transfer_nick", None),SlotSet("transfer_amount", None),SlotSet("transfer_amount_unit", None)]
+
+# class UtterBye(Action):
+#     def name(self) -> Text:
+#         return "utter_bye"
+
+#     def run(self, dispatcher: CollectingDispatcher,
+#             tracker: Tracker,
+#             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+#         dispatcher.utter_message("Bye?")
+#         return []
